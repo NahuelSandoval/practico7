@@ -2,13 +2,18 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    
+} 
+/* ---------celuuuu-------- */
+nav{
+    display: flex;
+    flex-direction: column;
 }
 ul{
     background-color: aquamarine;
     font-size: 0;
     list-style: none;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -73,4 +78,63 @@ input,select,textarea{
     background-color: blue;
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* --------tablettttt---------- */
+@media (min-width:768px){
+    .campos{
+        width: 30rem;  
+        background-color: aquamarine; 
+        align-items: center;
+        border-style: none;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+        ul{
+            background-color: yellow;  
+        }
+        body{background-color: grey
+            }
+            a{
+                font-size: 20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-transform: uppercase;
+            }
+            legend{
+                font-size: 2rem;
+                color: rgb(122, 41, 41);
+            }
+            .botones input{
+                                font-size: 2rem;
+                        }
+                        .botones input:hover{
+                            background-color: yellow;
+                            color: black;
+                        }
+}
+/*-------------pantallas------------- */
+@media(min-width:992px){
+    ul{
+        background-color: greenyellow;  
+    }
+        a{
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    text-shadow: 1rem 1rem 1rem black;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    .campos{
+        width: 50rem;
+        
+    }
+    legend{
+        color: brown;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: 1rem 1rem 1rem red;
+    }
+    
+
 }
