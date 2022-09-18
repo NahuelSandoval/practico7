@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+}
+ul{
+    background-color: aquamarine;
+    font-size: 0;
+    list-style: none;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+li{
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    padding: 5px;
+}
+ul ul{
+    position: absolute;
+    gap: 3rem;
+    display: none;
+    
+}
+ul ul li {
+    display: block;
+}
+ul li:hover ul{ 
+    display: block
+}
+a{
+    padding: 1rem;
+}
+a:hover{
+    background-color: blue;
+}
+
+/* form------------- */
+form{
+    display: flex;
+    justify-content: center;
+}
+.campos{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    margin: 2rem;
+    border-color: gold;
+    border-radius: 20px;
+    background-color: ghostwhite;
+    width: 20rem;
+}
+input,select,textarea{
+    margin-bottom: 1rem;
+}
+.botones {
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.botones input{
+    padding: 5px;
+}
+.botones input:hover{
+    background-color: blue;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
