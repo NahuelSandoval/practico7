@@ -128,6 +128,8 @@ input,select,textarea{
     }
     .campos{
         width: 50rem;
+        display:flex;
+        align-items: flex-start;
         
     }
     legend{
@@ -135,6 +137,31 @@ input,select,textarea{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-shadow: 1rem 1rem 1rem red;
     }
-    
-
+    .paises{
+        font-size: 25px;
+    }
+    .paises input{
+        width: 20px;
+        height: 20px;
+    }
+    .botones input{
+        text-transform: lowercase;
+        border-radius: 10px;
+    }
+    .botones input:hover{
+background-color: blueviolet;
+box-shadow: 3rem 3rem 3rem black;
+text-transform: lowercase;
+    }
+    label,.terminos{
+        font-size: 30px;
+    }
+.terminos input{
+    height: 20px;
+    width: 20px;
+}
+select{
+    font-size: 2rem;
+    border-radius: 15px;
+}
 }
