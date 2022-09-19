@@ -41,13 +41,20 @@ ul li:hover ul{
 }
 a{
     padding: 1rem;
+    padding: 10px 20px 10px 20px;
 }
 a:hover{
     background-color: blue;
     border-radius: 10px;
+    box-shadow: 15px 15px 15px gray;
+    
 }
 
 /* form------------- */
+body{
+    background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 76%, rgba(255,248,0,1) 100%);
+}
 form{
     display: flex;
     justify-content: center;
@@ -76,10 +83,14 @@ input,select,textarea{
 }
 .botones input{
     padding: 5px;
+    text-transform: lowercase;
 }
 .botones input:hover{
     background-color: blue;
-    color: red;
+    color: gold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 15px 15px 15px aquamarine;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .celda,select{
