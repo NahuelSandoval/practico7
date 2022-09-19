@@ -7,6 +7,8 @@
 nav{
     display: flex;
     flex-direction: column;
+    position: sticky;
+    top: 0px;
 }
 ul{
     background-color: aquamarine;
@@ -42,6 +44,7 @@ a{
 }
 a:hover{
     background-color: blue;
+    border-radius: 10px;
 }
 
 /* form------------- */
@@ -79,9 +82,10 @@ input,select,textarea{
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.celda{
+.celda,select{
     border: none;
     border-radius: 5px;
+    border-bottom-style: inset ;
 }
 /* --------tablettttt---------- */
 @media (min-width:768px){
@@ -127,8 +131,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,90,121,0.7259278711
         a{
         font-size: 30px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    word-spacing: 10px;
-    letter-spacing: 4px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
     text-shadow: 1rem 1rem 1rem black;
     }
     body{
