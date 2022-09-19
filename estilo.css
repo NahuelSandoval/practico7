@@ -79,11 +79,18 @@ input,select,textarea{
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.celda{
+    border: none;
+    border-radius: 5px;
+}
 /* --------tablettttt---------- */
 @media (min-width:768px){
     .campos{
         width: 30rem;  
         background-color: aquamarine; 
+        background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,90,121,0.7259278711484594) 0%, rgba(0,212,255,1) 100%);
+
         align-items: center;
         border-style: none;
         font-size: 20px;
@@ -115,6 +122,7 @@ input,select,textarea{
 @media(min-width:992px){
     ul{
         background-color: greenyellow;  
+        
     }
         a{
         font-size: 30px;
@@ -125,6 +133,7 @@ input,select,textarea{
     }
     body{
         background-color: antiquewhite;
+        
     }
     .campos{
         width: 50rem;
@@ -163,5 +172,17 @@ text-transform: lowercase;
 select{
     font-size: 2rem;
     border-radius: 15px;
+}
+.celda{
+    width: 15rem;
+    height: 2rem;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 5px;
+}
+textarea{
+    width: 40rem;
+    font-size: 25px;
 }
 }
